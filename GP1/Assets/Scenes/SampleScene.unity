@@ -214,6 +214,7 @@ GameObject:
   - component: {fileID: 748964588}
   - component: {fileID: 748964587}
   - component: {fileID: 748964589}
+  - component: {fileID: 748964590}
   m_Layer: 0
   m_Name: starShip
   m_TagString: Untagged
@@ -298,6 +299,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theRenderer: {fileID: 748964587}
   spriteColor: {r: 1, g: 0, b: 0.17174816, a: 0}
+--- !u!114 &748964590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748964586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95321a62c289ece4cb9e505f092974ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 30
 --- !u!1 &1615375783
 GameObject:
   m_ObjectHideFlags: 0
